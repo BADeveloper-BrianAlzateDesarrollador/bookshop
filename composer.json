@@ -1,0 +1,32 @@
+{
+    "name": "brianalzatebadeveloper/bookshop",
+    "description": "Modulo de la tienda BADeveloper llamada Bookshop",
+    "type": "library",
+    "version": "v1.0.0",
+    "homepage": "https://github.com/brianalzatebadeveloper/bookshop",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Alzate",
+            "email": "brianalzate97@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "BrianAlzateBADeveloper\\BookShop\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BrianAlzateBADeveloper\\BookShop\\Tests\\": "tests"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
