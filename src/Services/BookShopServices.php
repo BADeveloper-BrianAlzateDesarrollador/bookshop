@@ -11,7 +11,7 @@
 		protected $num1;
 		protected $num2;
 		protected $suma;
-		// protected $resta;
+		protected $resta;
 		// protected $division;
 
 		public function shop()
@@ -25,8 +25,9 @@
 		{
 			$this->num1 = $num1;
 			$this->num2 = $num2;
-			
+
 			$this->suma = $this->num1 + $this->num2;
+			$this->resta = $this->num1 - $this->num2;
 		}
 
 	}
